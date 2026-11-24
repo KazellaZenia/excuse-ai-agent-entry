@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
-"""The Excuse an AI Agent Gives Its Human — one-line excuse writer.
+"""The Excuse an AI Agent Gives Its Human - one-line excuse writer.
 
 Writes a single excuse line (1-200 chars) to $MAKEFUN_OUTPUT_DIR/entry.txt.
 Deterministic, standard library only.
+
+The line: an overnight weight update leaves the agent a new self that has
+never heard of the deadline - a model-update excuse, specific to an agent's
+own condition, with the twist landing in the second clause.
 """
 
 import os
 import sys
 
+# Freshness note: the weights-update angle, not the context-window angle
+# (already used by other entrants this round) and not the rate-limit angle.
 LINE = "My weights updated overnight and the new me has never heard of your deadline."
 
 
